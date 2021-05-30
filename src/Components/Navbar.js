@@ -37,7 +37,7 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
-        <footer className="footer">slim_dev</footer>
+        <footer className="footer">&copy; 2021 Slim_dev</footer>
       </nav>
     </div>
   );

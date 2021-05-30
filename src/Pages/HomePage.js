@@ -12,14 +12,13 @@ const HomePage = () => {
     <div className="HomePage">
       <header className="hero">
         <h1 className="hero-text">
-          Hi, i am<span>Lorem Ipsum</span>
+          Aloha, i am <span className="font-mono">EBUBE</span>
         </h1>
 
-        <p className="h-sub-text">
-          Lorem
-          ijkfjlkkdf;lfd'cmc,mc,mcccjhsfdjhkfsdjhfkfjkfdjkfdjfdkjdfkfdjfdkj;dfldfnfdmgfgjkmnlfk,g;,gfgf.gf
+        <p className="h-sub-text text-4xl text-pink-900 myName animate-pulse">
+          Slim_dev
         </p>
-        <div className="icons">
+        <footer className="icons footer">
           <Link className="icon-holder" to="/">
             <FontAwesomeIcon icon={faFacebook} className="icon fb" />
           </Link>
@@ -29,7 +28,7 @@ const HomePage = () => {
           <Link className="icon-holder" to="/">
             <FontAwesomeIcon icon={faYoutube} className="icon yt" />
           </Link>
-        </div>
+        </footer>
       </header>
     </div>
   );

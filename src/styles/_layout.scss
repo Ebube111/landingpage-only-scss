@@ -1,4 +1,5 @@
 .App {
+  width: 100vw;
   .sidebar {
     width: 16%;
     height: 100vh;
@@ -11,6 +12,9 @@
       transition: all 0.4s ease-in-out;
       transform: translate(-100%);
       position: fixed;
+    }
+    @media screen and (max-width: 1300px) {
+      width: 26%;
     }
     @media screen and (max-width: 411px) {
       width: 40%;
@@ -45,9 +49,9 @@
       @media screen and (max-width: 400px) {
         margin: 0.5rem 0.5rem;
       }
-      @media screen and (max-width: 375px) {
-        margin: 0.5rem;
-      }
+    }
+    @media screen and (min-width: 370px) {
+      width: 100%;
     }
   }
 }
@@ -84,4 +88,8 @@
       display: block;
     }
   }
+}
+
+.myName {
+  font-family: "Grand Hotel", cursive;
 }

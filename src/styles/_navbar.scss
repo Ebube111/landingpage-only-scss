@@ -13,13 +13,19 @@
       margin-top: 1rem;
       border-bottom: 1px solid #2e344e;
       img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 13vw;
         height: 27vh;
         border-radius: 100%;
         border: 5px solid #2e344e;
         margin-bottom: 1rem;
         @media screen and (max-width: 1400px) {
-          height: 14vh;
+          height: 90%;
+          width: 60%;
+          align-items: center;
+          justify-content: center;
         }
       }
     }
@@ -61,6 +67,7 @@
       width: 100%;
       border-top: 1px solid #2e344e;
       text-align: center;
+      font-family: "Grand Hotel", cursive;
       p {
         padding: 1rem 0;
       }
